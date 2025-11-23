@@ -44,9 +44,20 @@ I chose [Gradio](https://www.gradio.app/docs) as the framework because it's desi
 ```python
 # app.py - Core recommendation function
 def recommend_movies(genre, min_ratings, num_results):
-    filtered = movies[movies['Genres'].str.contains(genre)]
+    """Recommend top-rated movies by genre"""
+    filtered = movies[movies['Genres'].str.contains(genre, na=False)]
     filtered = filtered[filtered['num_ratings'] >= min_ratings]
-    return filtered.sort_values('avg_rating', ascending=False)
+    filtered = filtered.sort_values('avg_rating', ascending=False)
+    top_movies = filtered.head(int(num_results))
+    
+    results = []
+    for _, row in top_movies.iterrows():
+        results.append({
+            'Title': row['Title'],
+            'Genres': row['Genres'],
+            'Avg Rating': f"{row['avg_rating']:.2f} ⭐",
+            'Num Ratings': int(row['num_ratings'])
+        })
 ```
 
 Gradio handles the UI automatically. With about 80 lines of Python, I will have a complete application with dropdowns, sliders, and a results table.
