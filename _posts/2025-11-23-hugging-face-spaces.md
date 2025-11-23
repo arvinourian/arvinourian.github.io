@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Deploying ML Apps with Hugging Face Spaces"
+title: "From Dataset to ML Application in Minutes: A Practical Guide to Hugging Face Spaces"
 date: 2025-11-23
 ---
 
