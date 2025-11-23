@@ -58,6 +58,7 @@ def recommend_movies(genre, min_ratings, num_results):
             'Avg Rating': f"{row['avg_rating']:.2f} ⭐",
             'Num Ratings': int(row['num_ratings'])
         })
+    return pd.DataFrame(results)
 ```
 
 Gradio handles the UI automatically. With about 80 lines of Python, I will have a complete application with dropdowns, sliders, and a results table.
