@@ -8,6 +8,8 @@ You've built a machine learning model. It works great in your Jupyter notebook. 
 
 In this post we explore Hugging Face Spaces, a platform that promises to streamline this process while also providing a more user-friendly environment to demo your ML project. I tested it by building and deploying a movie recommendation system using the MovieLens 1M dataset.
 
+You can view and test the completed [demo space here](https://huggingface.co/spaces/Anourian/movie-recommender) , aswell as all the [corresponding files](https://huggingface.co/spaces/Anourian/movie-recommender/tree/main)
+
 ## The Deployment Problem in ML Production
 
 Before diving into the solution, let's understand the problem. In a typical ML workflow, getting a model into production requires:
