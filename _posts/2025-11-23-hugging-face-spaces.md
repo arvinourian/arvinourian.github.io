@@ -63,7 +63,7 @@ The deployment process is straightforward:
 
 After creating a Hugging Face Account, navigate to [https://huggingface.co/spaces](https://huggingface.co/spaces) and click create a "New Space"
 
-![Creating a new Space](../images/image4.png)
+![Creating a new Space]([../images/image4.png](https://github.com/arvinourian/arvinourian.github.io/blob/main/images/image4.png?raw=true))
 
 Provide a Space name, short description, and choose the SDK for your project. In this case we are using Gradio.
 
