@@ -77,7 +77,7 @@ One completed, click "Create Space"
 
 ![Create Space button](https://github.com/arvinourian/arvinourian.github.io/blob/main/images/image3.png?raw=true)
 
-One the Space is created you should be directed to the URL https://huggingface.co/spaces/[username]/[space-name], and there should be instructions on how to get started. Here we use Hugging Face Space's own file UI to upload the needed files.
+One the Space is created you should be directed to the URL `https://huggingface.co/spaces/[username]/[space-name]`, and there should be instructions on how to get started. Here we use Hugging Face Space's own file UI to upload the needed files.
 
 ![Space instructions](https://github.com/arvinourian/arvinourian.github.io/blob/main/images/image8.png?raw=true)
 
