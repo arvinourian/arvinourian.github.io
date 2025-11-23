@@ -79,7 +79,7 @@ After creating a Hugging Face Account, navigate to [https://huggingface.co/space
 
 ![Creating a new Space](https://github.com/arvinourian/arvinourian.github.io/blob/main/images/image4.png?raw=true)
 
-Provide a Space name, short description, and choose the SDK for your project. In this case we are using Gradio.
+Provide a Space name, short description, and choose the SDK for your project. In this case we are using [Gradio](https://www.gradio.app/docs).
 
 ![Space configuration](https://github.com/arvinourian/arvinourian.github.io/blob/main/images/image7.png?raw=true)
 
