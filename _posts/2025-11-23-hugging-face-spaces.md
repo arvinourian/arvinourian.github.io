@@ -67,31 +67,31 @@ After creating a Hugging Face Account, navigate to [https://huggingface.co/space
 
 Provide a Space name, short description, and choose the SDK for your project. In this case we are using Gradio.
 
-![Space configuration](../images/image7.png)
+![Space configuration](https://github.com/arvinourian/arvinourian.github.io/blob/main/images/image7.png?raw=true)
 
 You also have the option of selecting between templates and hardware, public/private, and Space Dev Mode which allows you to work on your Space remotely using SSH or VS Code.
 
 One completed, click "Create Space"
 
-![Create Space button](../images/image3.png)
+![Create Space button](https://github.com/arvinourian/arvinourian.github.io/blob/main/images/image3.png?raw=true)
 
 One the Space is created you should be directed to the URL https://huggingface.co/spaces/[username]/[space-name], and there should be instructions on how to get started. Here we use Hugging Face Space's own file UI to upload the needed files.
 
-![Space instructions](../images/image8.png)
+![Space instructions](https://github.com/arvinourian/arvinourian.github.io/blob/main/images/image8.png?raw=true)
 
 Click "Files" > "Contribute" > "Upload files"
 
-![Upload files menu](../images/image2.png)
+![Upload files menu](https://github.com/arvinourian/arvinourian.github.io/blob/main/images/image2.png?raw=true)
 
 Then its as simple as dragging and dropping our demo's files and clicking "Commit changes to main"
 
-![Uploading files](../images/image5.png)
+![Uploading files](https://github.com/arvinourian/arvinourian.github.io/blob/main/images/image5.png?raw=true)
 
 After a few minutes, we navigate back to https://huggingface.co/spaces/[username]/[space-name] and see that the application is being deployed without us having to mess with Docker, AWS or any other tedious tools when we just want a simple demo to run.
 
-![Application building](../images/image6.png)
+![Application building](https://github.com/arvinourian/arvinourian.github.io/blob/main/images/image6.png?raw=true)
 
-![Deployed application](../images/image1.png)
+![Deployed application](https://github.com/arvinourian/arvinourian.github.io/blob/main/images/image1.png?raw=true)
 
 # Analysis: Strengths and Limitations
 
