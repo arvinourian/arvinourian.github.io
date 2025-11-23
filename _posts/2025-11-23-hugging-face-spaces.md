@@ -53,7 +53,7 @@ Gradio handles the UI automatically. With about 80 lines of Python, I will have 
 
 Deploying to Spaces requires just three files:
 
-1. **app.py** — Your Gradio application
+1. **app.py**: Your Gradio application
 2. **requirements.txt**: Python dependencies (gradio, pandas)
 3. **Data files:** movies.dat, ratings.dat, users.dat
 
