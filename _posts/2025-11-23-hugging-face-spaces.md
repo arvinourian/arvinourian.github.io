@@ -39,7 +39,7 @@ I used the MovieLens 1M dataset, which contains 1 million ratings from 6,040 use
 
 ## Step 1: Create the Application
 
-I chose [Gradio](https://www.gradio.app/docs) as the framework because it's designed specifically for ML interfaces and requires minimal frontend knowledge. Here's the core logic:
+I chose [Gradio](https://www.gradio.app/docs) as the framework because it's designed specifically for ML interfaces and requires minimal frontend knowledge. The following core logic can be found in [app.py](https://huggingface.co/spaces/Anourian/movie-recommender/blob/main/app.py)
 
 ```python
 # app.py - Core recommendation function
