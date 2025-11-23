@@ -63,19 +63,35 @@ The deployment process is straightforward:
 
 After creating a Hugging Face Account, navigate to [https://huggingface.co/spaces](https://huggingface.co/spaces) and click create a "New Space"
 
+![Creating a new Space](../images/image4.png)
+
 Provide a Space name, short description, and choose the SDK for your project. In this case we are using Gradio.
+
+![Space configuration](../images/image7.png)
 
 You also have the option of selecting between templates and hardware, public/private, and Space Dev Mode which allows you to work on your Space remotely using SSH or VS Code.
 
 One completed, click "Create Space"
 
+![Create Space button](../images/image3.png)
+
 One the Space is created you should be directed to the URL https://huggingface.co/spaces/[username]/[space-name], and there should be instructions on how to get started. Here we use Hugging Face Space's own file UI to upload the needed files.
+
+![Space instructions](../images/image8.png)
 
 Click "Files" > "Contribute" > "Upload files"
 
+![Upload files menu](../images/image2.png)
+
 Then its as simple as dragging and dropping our demo's files and clicking "Commit changes to main"
 
+![Uploading files](../images/image5.png)
+
 After a few minutes, we navigate back to https://huggingface.co/spaces/[username]/[space-name] and see that the application is being deployed without us having to mess with Docker, AWS or any other tedious tools when we just want a simple demo to run.
+
+![Application building](../images/image6.png)
+
+![Deployed application](../images/image1.png)
 
 # Analysis: Strengths and Limitations
 
