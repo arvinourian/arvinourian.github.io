@@ -6,7 +6,7 @@ date: 2025-11-23
 
 You've built a machine learning model. It works great in your Jupyter notebook. Now what? This is the question that haunts data science teams everywhere. The journey from a working prototype to a deployed, user-facing application is often measured in weeks or months. This is not because machine learning is hard, but because deployment is tedious and complicated.
 
-In this post we explore Hugging Face Spaces, a platform that promises to streamline this process while also providing a more user-friendly environment to demo your ML project. I tested it by building and deploying a movie recommendation system using the MovieLens 1M dataset.
+In this post we explore Hugging Face Spaces, a platform that promises to streamline this process while also providing a more user-friendly environment to demo your ML project. I tested it by building and deploying a movie recommendation system using the [MovieLens 1M dataset](https://grouplens.org/datasets/movielens/).
 
 You can view and test the completed [demo space here](https://huggingface.co/spaces/Anourian/movie-recommender) , aswell as all the [corresponding files](https://huggingface.co/spaces/Anourian/movie-recommender/tree/main)
 
@@ -33,13 +33,13 @@ To test Hugging Face Spaces in a realistic scenario, I use the MovieLens 1M data
 
 Hugging Face Spaces provides value here by allowing less DevOps oriented stakeholders to demo the dataset and demo the recommendation system. As a data engineer you can also get value out of the easy to navigate UI that this platform provides to explore your dataset.
 
-## The Dataset: MovieLens 1M
+## The Dataset: [MovieLens 1M]((https://grouplens.org/datasets/movielens/))
 
 I used the MovieLens 1M dataset, which contains 1 million ratings from 6,040 users on 3,883 movies. This is a standard benchmark dataset that mirrors the kind of data a real streaming service would have.
 
 ## Step 1: Create the Application
 
-I chose Gradio as the framework because it's designed specifically for ML interfaces and requires minimal frontend knowledge. Here's the core logic:
+I chose [Gradio](https://www.gradio.app/docs) as the framework because it's designed specifically for ML interfaces and requires minimal frontend knowledge. Here's the core logic:
 
 ```python
 # app.py - Core recommendation function
@@ -89,7 +89,7 @@ Then its as simple as dragging and dropping our demo's files and clicking "Commi
 
 ![Uploading files](https://github.com/arvinourian/arvinourian.github.io/blob/main/images/image5.png?raw=true)
 
-After a few minutes, we navigate back to https://huggingface.co/spaces/[username]/[space-name] and see that the application is being deployed without us having to mess with Docker, AWS or any other tedious tools when we just want a simple demo to run.
+After a few minutes, we navigate back to `https://huggingface.co/spaces/[username]/[space-name]` and see that the application is being deployed without us having to mess with Docker, AWS or any other tedious tools when we just want a simple demo to run.
 
 ![Application building](https://github.com/arvinourian/arvinourian.github.io/blob/main/images/image6.png?raw=true)
 
