@@ -136,3 +136,21 @@ Most limitations are relevant to the Free-tier that we are using for this demons
 Hugging Face Spaces excels at getting ML applications in front of users fast. For our movie recommendation scenario, it transformed a genre recommendation algorithm into a shareable demo in under 10 minutes. This is something that could traditionally take a day or more with conventional deployment approaches.
 
 It's not a replacement for production infrastructure, but it doesn't try to be. Instead, it fills a critical gap in the ML workflow: the space between "it works in my notebook" and "let's invest in proper infrastructure". For teams that want to validate ideas quickly, gather stakeholder feedback, or share work publicly, Hugging Face Spaces is a powerful addition to the MLOps toolkit.
+
+
+
+<script src="https://giscus.app/client.js"
+        data-repo="arvinourian/arvinourian.github.io"
+        data-repo-id="R_kgDOQbI2qA"
+        data-category="General"
+        data-category-id="DIC_kwDOQbI2qM4CzC_d"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
